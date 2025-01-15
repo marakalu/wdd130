@@ -1,15 +1,29 @@
+:root {
+    --main-bg-color: #ffffff;
+    --primary-color: #333333;
+    --secondary-color: #f4f4f4;
+    --overlay-bg: radial-gradient(#eee, #11aa11);
+    --border-color: #000;
+    --box-shadow-color: #111;
+    --footer-color: navy;
+    --font-size: 16px;
+    --heading-font: 'Arial', sans-serif;
+    --body-font: 'Verdana', sans-serif;
+}
+
+
 img {
-object-fit: cover;
+    object-fit: cover;
 }
 
 .stats {
     position: absolute;
-    bottom: 25px; 
-    left: 15px;   
-    background: radial-gradient(#eee, #11aa11);
-    border: 1px solid #000;
+    bottom: 25px;
+    left: 15px;
+    background: var(--overlay-bg);
+    border: 1px solid var(--border-color);
     padding: 0.65rem;
-    box-shadow: 0 0 30px #111;
+    box-shadow: 0 0 30px var(--box-shadow-color);
     opacity: 0.9;
 }
 
@@ -23,9 +37,10 @@ footer {
     position: fixed;
     bottom: 0;
     margin: 1rem;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--border-color);
     padding: 0.5rem;
-    color: navy;
+    color: var(--footer-color);
     font-weight: 700;
     font-style: italic;
+    font-family: var(--body-font);
 }
