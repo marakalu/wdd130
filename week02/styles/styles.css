@@ -1,65 +1,81 @@
- * {
+/* Global Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
- nav {
+}
+
+/* Navigation Styling */
+nav {
     background-color: darkblue;
     padding: 10px;
-}  
+}
+
 nav a {
     color: white;
-    display: block;
-    padding: 20px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
 }
+
+/* Heading */
 h1 {
     color: darkblue;
+    text-align: center;
 }
+
+/* Main Section Image */
 main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 10px gray;
     float: right;
     margin: 0 0 1rem 1rem;
 }
 
-
+/* Aside Styling */
 aside {
     width: 20em;
-    margin: 1em;
-    border: 1px solid rgba(0,0,0,0.2);
-    background-color: white;
+    margin: 2rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #f9f9f9;
     color: #333;
     text-align: center;
 }
 
+/* Image in Aside */
 aside img {
     width: 200px;
     height: auto;
+    margin-bottom: 1rem;
 }
 
-aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
-}
-
+/* Footer Styling */
 footer {
-    margin-top: 1em;
-    border-top: 1px solid #000;
+    margin-top: 2rem;
+    border-top: 2px solid #000;
     text-align: center;
+    padding-top: 1rem;
 }
-/* Class Selector */
-.box {
-    margin: 1rem;
-    border: 1px solid rgb(0,0,0,.1);
+
+/* List Styling */
+ul.box {
+    margin: 2rem;
     padding: 1rem;
+    list-style-type: none;
     background-color: #ddd;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     color: #000;
 }
 
-.indent {
-    padding-left: 2rem
+ul.box li {
+    margin-bottom: 0.5rem;
+}
+
+/* Paragraph Styling */
+p {
+    padding: 0;
 }
