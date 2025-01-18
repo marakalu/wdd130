@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  #logo {
+    height: 50px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    text-align: center;
+  }
+  
+  .hero-img {
+    width: 100%;
+    display: block;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  /* Article Section */
+  .article-img {
+    float: right;
+    width: 150px;
+    margin-left: 10px;
+  }
+  
+  /* Adventure Images */
+  .adventure-img {
+    width: 200px;
+    margin: 10px;
+    display: inline-block;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+footer a img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  footer a img:hover {
+    transform: scale(1.2)
+  }
+  
+  .social-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+  }
+  
+  .social-icon:hover {
+    filter: brightness(1.2);
+    transform: scale(1.1);
+  }
