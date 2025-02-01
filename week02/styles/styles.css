@@ -6,8 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     background-color: lightblue;
+}
+
+h1 {
+    color:#333;
 }
 
 /* Header */
