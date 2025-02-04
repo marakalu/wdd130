@@ -64,10 +64,10 @@ button:hover {
 }
 
 .footer a {
-    color: #ffffff;
+    color: #000;
     text-decoration: underline;
 }
 
 .footer a:hover {
-    color: #ffcc00;
+    color: #007BFF;
 }
