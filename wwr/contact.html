@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Rafting Adventures! Contact us for inquiries about our rafting trips and services, or send us a message through our contact form.">
+    <title>Contact Us - Rafting Adventures</title>
+    <link rel="stylesheet" href="Styles/rafting.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="images/logo.jpg" alt="Rafting Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h1>Contact Information</h1>
+        <p>If you have any questions about our services, rafting trips, or safety measures, feel free to contact us using the details below or by filling out the form.</p>
+
+        <div class="contact-details">
+            <h2>Send Us a Message</h2>
+            <p><strong>Email:</strong> info@raftingadventure.com</p>
+            <p><strong>Phone:</strong> +2349031985563</p>
+            <p><strong>Address:</strong></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d147782.84752272893!2d3.2943066797506426!3d6.548145508234947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1738590811958!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p><strong>Business Hours:</strong> Monday - Saturday: 9 AM - 9PM</p>
+        </div>
+
+        <!-- Employee Profiles -->
+        <h2>Meet Our Team</h2>
+        <div class="employee-profiles">
+            <div class="employee">
+                <img src="images/tour guild.jpg" alt="John Smith - Tour Guide">
+                <p><strong>John Smith</strong><br>Tour Guide</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee.jpg" alt="Jane Doe - Customer Support">
+                <p><strong>Jane Doe</strong><br>Customer Support</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee2.jpg" alt="David Leon - Safety Instructor">
+                <p><strong>David Leon</strong><br>Safety Instructor</p>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <h2>Send Us a Message</h2>
+        <form action="submit_form.php" method="POST">
+            <fieldset>
+                <legend>Contact Us</legend>
+
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <p>Purpose of Message:</p>
+                <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                <label for="general">General Inquiry</label>
+
+                <input type="radio" id="reservation" name="purpose" value="Reservation Question" required>
+                <label for="reservation">Reservation Question</label>
+
+                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion" required>
+                <label for="suggestion">Website Suggestion</label>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+
+                <button type="submit">Send Message</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="social-media">
+            <a href="https://www.facebook.com/share/1LaTVj1r67/?mibextid=wwXIfr" target="_blank">
+                <img src="images/facebook-icon.png" alt="Facebook Icon" width="40">
+            </a>
+            <a href="https://x.com/pherogodwin?s=21&t=LOn4pP4jSKtwJiPtpYtEjw" target="_blank">
+                <img src="images/twitter-icon.png" alt="Twitter Icon" width="40">
+            </a>
+            <a href="https://www.instagram.com/phero_godwin?igsh=MWFiNnlxeGZua2dudg%3D%3D&utm_source=qr" target="_blank">
+                <img src="images/instagram-icon.png" alt="Instagram Icon" width="40">
+            </a>
+        </div>
+        <!-- Wireframe Link -->
+        <p><a href="images/contact-wireframe.png" target="_blank">View Contact Us Wireframe</a></p>
+    </footer>
+</body>
+</html>

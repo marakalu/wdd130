@@ -1,154 +1,73 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #0066cc;
-    padding: 10px 20px;
-    color: white;
-}
-
-header img.logo {
-    width: 50px;
-}
-
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-header nav ul li {
-    margin: 0 10px;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Section Styles */
-section {
+/* Contact Form Styling */
+form {
+    background: #fff;
     padding: 20px;
-    margin: 10px auto;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.white-water-rafting img,
-.history img,
-.adventure-awaits img {
-    max-width: 100%;
-    height: auto;
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+label {
     display: block;
-    margin: 10px auto;
+    margin: 10px 0 5px;
 }
 
-.history .content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.history-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px; /* Space between elements */
-    padding: 20px;
-  }
-  
-  .history-text-left,
-  .history-text-right {
-    flex: 1; /* Equal width for text sections */
-    text-align: justify; /* Optional: Make text look cleaner */
-  }
-  
-  .history-image {
-    flex: 1; /* Adjust image size relative to text */
-    text-align: center; /* Center-align the image container */
-  }
-  
-  .history-image img {
-    max-width: 100%; /* Make the image responsive */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: Rounded corners */
-  }
-
-.adventure-awaits .gallery {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.adventure-awaits figure {
-    text-align: center;
-}
-
-.social-media {
-    display: flex;
-    justify-content: flex-end; /* Center-align the icons */
-    gap: 15px; /* Space between icons */
-    padding: 20;
-  }
-  
-  .social-media a img {
-    width: 40px; /* Adjust icon size */
-    height: auto; /* Maintain aspect ratio */
-    transition: transform 0.3s ease; /* Smooth hover effect */
-    
-  }
-  
-  .social-media a img:hover {
-    transform: scale(1.2);
-
-  }
-
-footer {
-    text-align: center;
+input, textarea {
+    width: 100%;
     padding: 10px;
-    background-color: #333;
-    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-footer {
+button {
+    background: #0066cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005bb5;
+}
+
+/* Employee Profile Styling */
+.employee-profiles {
     display: flex;
-    justify-content: space-between;
-    align-items: center; /* Vertically align items */
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    justify-content: center;
+    gap: 20px;
 }
 
-footer p {
-    margin: 0; /* Remove default margin */
+.employee {
+    text-align: center;
 }
 
-footer .social-icons {
-    display: center; /* Display icons in a row */
-    gap: 10px; /* Add space between icons */
+.employee img {
+    width: 150px;
+    border-radius: 50%;
 }
 
-footer .social-icons img {
-    width: 20px;
-    height: 20px; /* Ensure icons are uniform in size */
+/* Footer Wireframe Link */
+.footer p {
+    margin-top: 10px;
 }
 
-.footer {
-    background-color: #333; /* Dark footer background */
-    color: #fff; /* White text color */
-    text-align: center; /* Center content */
-    padding: 20px 0;
-  }
-  
-footer img {
-    width: 20px;
-    margin: 0 5px;
+.footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: #ffcc00;
 }
