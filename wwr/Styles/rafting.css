@@ -1,11 +1,9 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Variables */
 :root {
     --primary-color: #1E3A8A;
     --secondary-color: #033e21;
@@ -14,7 +12,6 @@
     --accent3-color: #B3B3B3;
 }
 
-/* Header */
 header {
     display: flex;
     align-items: center;
