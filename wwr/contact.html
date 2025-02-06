@@ -3,103 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Get in touch with Rafting Adventures! Contact us for inquiries about our rafting trips and services, or send us a message through our contact form.">
-    <title>Contact Us - Rafting Adventures</title>
+    <meta name="description" content="Contact Rafting Adventures for reservations, inquiries, or suggestions!">
+    <meta name="author" content="Ezinne Kalu">
+    <title>Rapids Rafting Company - Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Styles/rafting.css">
 </head>
 <body>
-    <!-- Header Section -->
     <header>
-        <img src="images/logo.jpg" alt="Rafting Logo" class="logo">
+        <img src="images/logo.jpg" alt="Rapids Logo">
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-
-    <!-- Contact Section -->
-    <section class="contact-section">
-        <h1>Contact Information</h1>
-        <p>If you have any questions about our services, rafting trips, or safety measures, feel free to contact us using the details below or by filling out the form.</p>
-
-        <div class="contact-details">
-            <h2>Send Us a Message</h2>
-            <p><strong>Email:</strong> info@raftingadventure.com</p>
-            <p><strong>Phone:</strong> +2349031985563</p>
-            <p><strong>Address:</strong></p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d147782.84752272893!2d3.2943066797506426!3d6.548145508234947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1738590811958!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <p><strong>Business Hours:</strong> Monday - Saturday: 9 AM - 9PM</p>
+    <main>
+        <div class="hero">
+            <img src="images/rafting2.jpg" alt="group of people in a rafting boat">
+            <h1><b>Rapids Whitewater Rafting Company</b></h1>
+            <article>
+                <img src="images/happy customer rafting.jpg" alt="a happy client">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore maiores nulla commodi laudantium cumque, vel ipsam voluptates qui 
+                   quas cupiditate nemo ut, deserunt quisquam rerum illo quia similique accusamus eveniet!
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dignissimos cum commodi animi debitis. 
+                   Quos hic error provident numquam delectus itaque minima doloribus magni perspiciatis.
+            </article>
         </div>
-
-        <!-- Employee Profiles -->
-        <h2>Meet Our Team</h2>
-        <div class="employee-profiles">
-            <div class="employee">
-                <img src="images/tour guild.jpg" alt="John Smith - Tour Guide">
-                <p><strong>John Smith</strong><br>Tour Guide</p>
+        <div class="contact_container">
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p><strong>Address: </strong>706A Ariel Ave</p>
+                <p><strong>Email: </strong>rafting123@gmail.com</p>
+                <p><strong>Phone: </strong>+09363375</p>
             </div>
-            <div class="employee">
-                <img src="images/employee.jpg" alt="Jane Doe - Customer Support">
-                <p><strong>Jane Doe</strong><br>Customer Support</p>
-            </div>
-            <div class="employee">
-                <img src="images/employee2.jpg" alt="David Leon - Safety Instructor">
-                <p><strong>David Leon</strong><br>Safety Instructor</p>
+            <div class="iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31703.98930502584!2d3.3546169883988957!3d6.647085424228522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9381601e96b5%3A0x8d79a42c1c6bb9d4!2sOjodu%20Berger%2C%20Lagos!5e0!3m2!1sen!2sng!4v1738759021226!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-
-        <!-- Contact Form -->
-        <h2>Send Us a Message</h2>
-        <form action="submit_form.php" method="POST">
-            <fieldset>
-                <legend>Contact Us</legend>
-
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <p>Purpose of Message:</p>
-                <input type="radio" id="general" name="purpose" value="General Inquiry" required>
-                <label for="general">General Inquiry</label>
-
-                <input type="radio" id="reservation" name="purpose" value="Reservation Question" required>
-                <label for="reservation">Reservation Question</label>
-
-                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion" required>
-                <label for="suggestion">Website Suggestion</label>
-
-                <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <input type="checkbox" id="subscribe" name="subscribe">
-                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-
-                <button type="submit">Send Message</button>
-            </fieldset>
-        </form>
-    </section>
-
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="social-media">
+            <div class="employees_profiles">
+                <h2>Meet Our Team!</h2>
+                <div class="employees">
+                    <section class="employee">
+                        <img src="images/tour guild.jpg" alt="an employee of the rips rafting site">
+                        <p>John Smith - Tour Guild</p>
+                    </section>
+                    <section class="employee">
+                        <img src="images/employee.jpg" alt="an employee of the rips rafting site">
+                        <p>John Smart - Safety Instructor</p>
+                    </section>
+                    <section class="employee">
+                        <img src="images/employee2.jpg" alt="an employee of the rips rafting site">
+                        <p>Jane Doe - Website Coordinator</p>
+                    </section>
+                </div>
+        </div>
+        <div class="form">
+            <h2>Want to Send Us A Message?</h2>
+            <form>
+                <fieldset class="field">
+                    <legend>Contact Information</legend>
+                        <label for="username">Name</label>
+                        <input type="text" id="username" name="username"><br>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                </fieldset>
+                <fieldset class="field">
+                    <legend>Purpose of Message</legend><br>
+                        <label for="general">General Inquiry</label>
+                        <input type="radio" id="general" name="purpose" value="general"><br>
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="reservation" name="purpose" value="reservation"><br>
+                        <label for="website">Website Suggestion</label>
+                        <input type="radio" id="website" name="purpose" value="website"><br><br>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Enter your message...." rows="4"></textarea>
+                </fieldset>
+                <div class="field checkbox">
+                    <input type="checkbox" id="suscribe" name="suscribe">
+                    <label for="suscribe">Please suscribe me to the monthly newsletter</label>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+      </main>  
+    <footer>
+        <p>&copy; 2025 Rapids Whitewater Rafting Company | ❤Ezinne Kalu❤ | <a href="https://app.moqups.com/FLaWuTi5i7EHiTXZNUA39Du7KD4N30Uj/view/page/ad12de680" target="_blank">Contact Us Wireframe</a></p>
+        <div class="icons">
             <a href="https://www.facebook.com/share/1LaTVj1r67/?mibextid=wwXIfr" target="_blank">
-                <img src="images/facebook-icon.png" alt="Facebook Icon" width="40">
+                <img src="images/facebook-icon.png" alt="facebook icon">
             </a>
             <a href="https://x.com/pherogodwin?s=21&t=LOn4pP4jSKtwJiPtpYtEjw" target="_blank">
-                <img src="images/twitter-icon.png" alt="Twitter Icon" width="40">
+                <img src="images/twitter-icon.png" alt="twitter icon">
             </a>
             <a href="https://www.instagram.com/phero_godwin?igsh=MWFiNnlxeGZua2dudg%3D%3D&utm_source=qr" target="_blank">
-                <img src="images/instagram-icon.png" alt="Instagram Icon" width="40">
+                <img src="images/instagram-icon.png" alt="instagram icon">
             </a>
         </div>
-        <!-- Wireframe Link -->
-        <p><a href="https://app.moqups.com/8gBDxq15Hpu01rMtMhQDlaV1c8fx8TJx/view/page/ad12de680" target="_blank">View Contact Us Wireframe</a></p>
     </footer>
-</body>
+</body>   
 </html>
