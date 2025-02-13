@@ -37,6 +37,12 @@ a img {
     display: block;
 
 }
+.hero-image {
+    width: 100vw;
+    height: auto;
+    display: block;
+
+}
 
 .hero h1 {
     font-size: 2.5rem;
@@ -480,7 +486,6 @@ th, td {
     margin: 0.5em;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.3);
 }
-
 thead th {
     background-color: var(--accent2-color);
     font-size: 1.3rem;
